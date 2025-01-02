@@ -20,7 +20,7 @@ This project implements a water bucket puzzle solver that:
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/water-bucket-solver.git
+git clone https://github.com/JeffreyHe9/4-Gallon-Bucket.git
 ```
 
 2. No additional installation required - uses only Python standard library.
