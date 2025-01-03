@@ -1,5 +1,7 @@
 # 4-Gallon-Bucket
 
+The objective of this project is to develop a program that can solve the problem of 2 kids fetching 4 gallons of water from a stream, using only an unmarked 3-gallon bucket, and an unmarked 5-gallon bucket, in less than 15 steps.
+
 This Python program solves the classic water jug riddle using Breadth-First Search (BFS). Given two buckets of different capacities, it finds the shortest sequence of steps to measure a target amount of water.
 
 ## Table of Contents
@@ -45,6 +47,11 @@ Sample Output:
 5. Fill the 5-gallon                   (2, 5)
 6. Pour from 5-gallon to 3-gallon      (3, 4)
 ```
+Understanding the Output
+1. Each line shows a step number, the action taken, and the resulting state
+2. State format is (3-gallon amount, 5-gallon amount)
+3. For example: `(3,2)` means 3 gallons in the 3-gallon bucket and 2 gallons in the 5-gallon bucket
+
 
 ## How It Works
 
